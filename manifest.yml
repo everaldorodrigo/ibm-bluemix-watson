@@ -1,0 +1,15 @@
+applications:
+- services:
+  - v-app-AdvancedMobileAccess
+  - v-app-cloudantNoSQLDB
+  - v-app-imfpush
+  - v-visual-recognition
+  - v-language-translation
+  disk_quota: 1024M
+  host: v-app
+  name: v-app
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 512M

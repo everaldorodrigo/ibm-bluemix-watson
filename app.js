@@ -12,13 +12,13 @@ var
     ibmbluemix 	= require('ibmbluemix'),
     watson = require('watson-developer-cloud'),
     language_translation = watson.language_translation({
-                                                   username: '27e301e2-019f-42de-8d64-531e59596c71',
-                                                   password: 'APXHDQvTGXPM',
+                                                   username: 'YOUR_USR',
+                                                   password: 'YOUR_PWD',
                                                    version: 'v2'
                                                    }),
     visual_recognition = watson.visual_recognition({
-                                                   username: '54e6b8c5-3c78-4b6e-a762-75071a270e3e',
-                                                   password: '80PcKrRS4nvm',
+                                                   username: 'YOUR_USR',
+                                                   password: 'YOUR_PWD',
                                                    version: 'v1-beta'
                                                    }),
     Cloudant = require('cloudant'),
@@ -26,8 +26,8 @@ var
                         host: "19c3624f-3f57-4f5f-9ba6-8914d9e1138f-bluemix.cloudant.com",
                         port: 443,
                         url: "https://19c3624f-3f57-4f5f-9ba6-8914d9e1138fbluemix:fe09cfbc4ebb2e2bb4a58b636959c450f01fe5b715e2a40cdaf8ddfa87ba34f8@19c3624f-3f57-4f5f-9ba6-8914d9e1138fbluemix.cloudant.com",
-                        username: '19c3624f-3f57-4f5f-9ba6-8914d9e1138f-bluemix',
-                        password: 'fe09cfbc4ebb2e2bb4a58b636959c450f01fe5b715e2a40cdaf8ddfa87ba34f8'
+                        username: 'YOUR_USR',
+                        password: 'YOUR_PWD'
                  });
 
 // init core sdk
